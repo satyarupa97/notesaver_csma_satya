@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use("/", noteRoutes);
 
-mongoose.connect(mongodb+srv://satyarupavathidaladuli24_db_user:satya@4230@cluster0.yfdkpmt.mongodb.net/rupa)
+mongoose.connect("mongodb+srv://satyarupavathidaladuli24_db_user:satya@4230@cluster0.yfdkpmt.mongodb.net/rupa")
 .then(() => {
     console.log("MongoDB Connected Successfully");
 })
